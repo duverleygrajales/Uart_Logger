@@ -11949,7 +11949,7 @@ Conrad Elektronik Best. Nr. 729981 - 49</description>
 <junction x="-20.32" y="-2.54"/>
 </segment>
 </net>
-<net name="SDIO.CLK" class="0">
+<net name="SDIO.CK" class="0">
 <segment>
 <pinref part="J4" gate="G$1" pin="CLK"/>
 <wire x1="10.16" y1="-5.08" x2="-25.4" y2="-5.08" width="0.1524" layer="91"/>

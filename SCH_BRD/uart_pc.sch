@@ -10803,17 +10803,17 @@ Conrad Elektronik Best. Nr. 729981 - 49</description>
 <instance part="GND51" gate="1" x="-78.74" y="-30.48"/>
 <instance part="C51" gate="G$1" x="-109.22" y="-27.94"/>
 <instance part="SJ27" gate="G$1" x="-58.42" y="-22.86" rot="MR90"/>
-<instance part="D39" gate="G$1" x="73.66" y="30.48"/>
-<instance part="U$4" gate="G$1" x="55.88" y="2.54"/>
-<instance part="U$5" gate="G$1" x="71.12" y="2.54"/>
-<instance part="U$6" gate="G$1" x="86.36" y="2.54"/>
-<instance part="R97" gate="G$1" x="66.04" y="15.24" rot="R270"/>
-<instance part="R98" gate="G$1" x="73.66" y="15.24" rot="R270"/>
-<instance part="R99" gate="G$1" x="81.28" y="15.24" rot="R270"/>
-<instance part="GND134" gate="1" x="58.42" y="-7.62"/>
-<instance part="GND135" gate="1" x="73.66" y="-7.62"/>
-<instance part="GND136" gate="1" x="88.9" y="-7.62"/>
-<instance part="SUPPLY8" gate="G$1" x="73.66" y="43.18"/>
+<instance part="D39" gate="G$1" x="73.66" y="38.1"/>
+<instance part="U$4" gate="G$1" x="55.88" y="5.08"/>
+<instance part="U$5" gate="G$1" x="71.12" y="5.08"/>
+<instance part="U$6" gate="G$1" x="86.36" y="5.08"/>
+<instance part="R97" gate="G$1" x="66.04" y="17.78" rot="R270"/>
+<instance part="R98" gate="G$1" x="73.66" y="17.78" rot="R270"/>
+<instance part="R99" gate="G$1" x="81.28" y="17.78" rot="R270"/>
+<instance part="GND134" gate="1" x="58.42" y="-5.08"/>
+<instance part="GND135" gate="1" x="73.66" y="-5.08"/>
+<instance part="GND136" gate="1" x="88.9" y="-5.08"/>
+<instance part="SUPPLY8" gate="G$1" x="73.66" y="50.8"/>
 <instance part="S2" gate="G$1" x="-71.12" y="-48.26"/>
 <instance part="LED2" gate="G$1" x="104.14" y="25.4"/>
 <instance part="GND32" gate="1" x="104.14" y="15.24"/>
@@ -10986,17 +10986,17 @@ Conrad Elektronik Best. Nr. 729981 - 49</description>
 <segment>
 <pinref part="U$4" gate="G$1" pin="S"/>
 <pinref part="GND134" gate="1" pin="GND"/>
-<wire x1="58.42" y1="-2.54" x2="58.42" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="0" x2="58.42" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$5" gate="G$1" pin="S"/>
 <pinref part="GND135" gate="1" pin="GND"/>
-<wire x1="73.66" y1="-2.54" x2="73.66" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="0" x2="73.66" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$6" gate="G$1" pin="S"/>
 <pinref part="GND136" gate="1" pin="GND"/>
-<wire x1="88.9" y1="-2.54" x2="88.9" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="0" x2="88.9" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="LED2" gate="G$1" pin="C"/>
@@ -11171,7 +11171,7 @@ Conrad Elektronik Best. Nr. 729981 - 49</description>
 <segment>
 <pinref part="D39" gate="G$1" pin="1"/>
 <pinref part="SUPPLY8" gate="G$1" pin="3.3V"/>
-<wire x1="73.66" y1="43.18" x2="73.66" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="50.8" x2="73.66" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R62" gate="G$1" pin="2"/>
@@ -11291,44 +11291,49 @@ Conrad Elektronik Best. Nr. 729981 - 49</description>
 <segment>
 <pinref part="D39" gate="G$1" pin="4"/>
 <pinref part="R97" gate="G$1" pin="1"/>
-<wire x1="66.04" y1="22.86" x2="66.04" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="30.48" x2="66.04" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$110" class="0">
 <segment>
-<pinref part="D39" gate="G$1" pin="3"/>
 <pinref part="R98" gate="G$1" pin="1"/>
-<wire x1="73.66" y1="22.86" x2="73.66" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="25.4" x2="73.66" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="D39" gate="G$1" pin="2"/>
+<wire x1="81.28" y1="30.48" x2="78.74" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="30.48" x2="78.74" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="25.4" x2="73.66" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$113" class="0">
 <segment>
-<pinref part="D39" gate="G$1" pin="2"/>
 <pinref part="R99" gate="G$1" pin="1"/>
-<wire x1="81.28" y1="22.86" x2="81.28" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="D39" gate="G$1" pin="3"/>
+<wire x1="73.66" y1="30.48" x2="73.66" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="27.94" x2="81.28" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="27.94" x2="81.28" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$117" class="0">
 <segment>
 <pinref part="U$4" gate="G$1" pin="D"/>
-<wire x1="58.42" y1="7.62" x2="58.42" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="10.16" x2="58.42" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="R97" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="10.16" x2="66.04" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="12.7" x2="66.04" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$122" class="0">
 <segment>
 <pinref part="U$5" gate="G$1" pin="D"/>
 <pinref part="R98" gate="G$1" pin="2"/>
-<wire x1="73.66" y1="7.62" x2="73.66" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="10.16" x2="73.66" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$126" class="0">
 <segment>
 <pinref part="U$6" gate="G$1" pin="D"/>
-<wire x1="88.9" y1="7.62" x2="88.9" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="10.16" x2="88.9" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="R99" gate="G$1" pin="2"/>
-<wire x1="88.9" y1="10.16" x2="81.28" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="12.7" x2="81.28" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$49" class="0">
@@ -11474,8 +11479,8 @@ Conrad Elektronik Best. Nr. 729981 - 49</description>
 </segment>
 <segment>
 <pinref part="U$6" gate="G$1" pin="G"/>
-<wire x1="83.82" y1="0" x2="81.28" y2="0" width="0.1524" layer="91"/>
-<label x="81.28" y="0" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="83.82" y1="2.54" x2="81.28" y2="2.54" width="0.1524" layer="91"/>
+<label x="81.28" y="2.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RGB.G" class="0">
@@ -11486,8 +11491,8 @@ Conrad Elektronik Best. Nr. 729981 - 49</description>
 </segment>
 <segment>
 <pinref part="U$5" gate="G$1" pin="G"/>
-<wire x1="68.58" y1="0" x2="66.04" y2="0" width="0.1524" layer="91"/>
-<label x="66.04" y="0" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="68.58" y1="2.54" x2="66.04" y2="2.54" width="0.1524" layer="91"/>
+<label x="66.04" y="2.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RGB.B" class="0">
@@ -11498,8 +11503,8 @@ Conrad Elektronik Best. Nr. 729981 - 49</description>
 </segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="G"/>
-<wire x1="53.34" y1="0" x2="50.8" y2="0" width="0.1524" layer="91"/>
-<label x="50.8" y="0" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="53.34" y1="2.54" x2="50.8" y2="2.54" width="0.1524" layer="91"/>
+<label x="50.8" y="2.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SDIO.CD" class="0">

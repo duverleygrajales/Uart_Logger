@@ -11009,6 +11009,21 @@ Conrad Elektronik Best. Nr. 729981 - 49</description>
 <wire x1="-83.82" y1="-48.26" x2="-86.36" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="-86.36" y1="-48.26" x2="-86.36" y2="-50.8" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="7"/>
+<wire x1="86.36" y1="-43.18" x2="88.9" y2="-43.18" width="0.1524" layer="91"/>
+<label x="88.9" y="-43.18" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="4"/>
+<wire x1="86.36" y1="-50.8" x2="88.9" y2="-50.8" width="0.1524" layer="91"/>
+<label x="88.9" y="-50.8" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="86.36" y1="-58.42" x2="88.9" y2="-58.42" width="0.1524" layer="91"/>
+<label x="88.9" y="-58.42" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="OSC32_IN" class="0">
 <segment>
@@ -11316,27 +11331,6 @@ Conrad Elektronik Best. Nr. 729981 - 49</description>
 <wire x1="88.9" y1="10.16" x2="81.28" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$127" class="0">
-<segment>
-<pinref part="U$6" gate="G$1" pin="G"/>
-<wire x1="83.82" y1="0" x2="81.28" y2="0" width="0.1524" layer="91"/>
-<label x="81.28" y="0" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$128" class="0">
-<segment>
-<pinref part="U$5" gate="G$1" pin="G"/>
-<wire x1="68.58" y1="0" x2="66.04" y2="0" width="0.1524" layer="91"/>
-<label x="66.04" y="0" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$129" class="0">
-<segment>
-<pinref part="U$4" gate="G$1" pin="G"/>
-<wire x1="53.34" y1="0" x2="50.8" y2="0" width="0.1524" layer="91"/>
-<label x="50.8" y="0" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="N$49" class="0">
 <segment>
 <pinref part="R62" gate="G$1" pin="1"/>
@@ -11364,12 +11358,22 @@ Conrad Elektronik Best. Nr. 729981 - 49</description>
 <wire x1="20.32" y1="20.32" x2="22.86" y2="20.32" width="0.1524" layer="91"/>
 <label x="22.86" y="20.32" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="3"/>
+<wire x1="86.36" y1="-53.34" x2="88.9" y2="-53.34" width="0.1524" layer="91"/>
+<label x="88.9" y="-53.34" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="USART3.TX" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="PB10"/>
 <wire x1="20.32" y1="12.7" x2="22.86" y2="12.7" width="0.1524" layer="91"/>
 <label x="22.86" y="12.7" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="2"/>
+<wire x1="86.36" y1="-55.88" x2="88.9" y2="-55.88" width="0.1524" layer="91"/>
+<label x="88.9" y="-55.88" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="USART6.TX" class="0">
@@ -11378,12 +11382,22 @@ Conrad Elektronik Best. Nr. 729981 - 49</description>
 <wire x1="20.32" y1="-5.08" x2="22.86" y2="-5.08" width="0.1524" layer="91"/>
 <label x="22.86" y="-5.08" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="5"/>
+<wire x1="86.36" y1="-48.26" x2="88.9" y2="-48.26" width="0.1524" layer="91"/>
+<label x="88.9" y="-48.26" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="USART6.RX" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="PC7"/>
 <wire x1="20.32" y1="-7.62" x2="22.86" y2="-7.62" width="0.1524" layer="91"/>
 <label x="22.86" y="-7.62" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="6"/>
+<wire x1="86.36" y1="-45.72" x2="88.9" y2="-45.72" width="0.1524" layer="91"/>
+<label x="88.9" y="-45.72" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="USART1.TX" class="0">
@@ -11392,12 +11406,22 @@ Conrad Elektronik Best. Nr. 729981 - 49</description>
 <wire x1="20.32" y1="-20.32" x2="22.86" y2="-20.32" width="0.1524" layer="91"/>
 <label x="22.86" y="-20.32" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="8"/>
+<wire x1="86.36" y1="-40.64" x2="88.9" y2="-40.64" width="0.1524" layer="91"/>
+<label x="88.9" y="-40.64" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="USART1.RX" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="PA10"/>
 <wire x1="20.32" y1="-22.86" x2="22.86" y2="-22.86" width="0.1524" layer="91"/>
 <label x="22.86" y="-22.86" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="9"/>
+<wire x1="86.36" y1="-38.1" x2="88.9" y2="-38.1" width="0.1524" layer="91"/>
+<label x="88.9" y="-38.1" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SDIO.D0" class="0">
@@ -11448,12 +11472,22 @@ Conrad Elektronik Best. Nr. 729981 - 49</description>
 <wire x1="20.32" y1="-55.88" x2="22.86" y2="-55.88" width="0.1524" layer="91"/>
 <label x="22.86" y="-55.88" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$6" gate="G$1" pin="G"/>
+<wire x1="83.82" y1="0" x2="81.28" y2="0" width="0.1524" layer="91"/>
+<label x="81.28" y="0" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="RGB.G" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="PB7"/>
 <wire x1="20.32" y1="-58.42" x2="22.86" y2="-58.42" width="0.1524" layer="91"/>
 <label x="22.86" y="-58.42" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="G"/>
+<wire x1="68.58" y1="0" x2="66.04" y2="0" width="0.1524" layer="91"/>
+<label x="66.04" y="0" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RGB.B" class="0">
@@ -11462,75 +11496,17 @@ Conrad Elektronik Best. Nr. 729981 - 49</description>
 <wire x1="20.32" y1="-60.96" x2="22.86" y2="-60.96" width="0.1524" layer="91"/>
 <label x="22.86" y="-60.96" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="G"/>
+<wire x1="53.34" y1="0" x2="50.8" y2="0" width="0.1524" layer="91"/>
+<label x="50.8" y="0" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="SDIO.CD" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="PA8"/>
 <wire x1="20.32" y1="-17.78" x2="22.86" y2="-17.78" width="0.1524" layer="91"/>
 <label x="22.86" y="-17.78" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="-58.42" x2="88.9" y2="-58.42" width="0.1524" layer="91"/>
-<label x="88.9" y="-58.42" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="86.36" y1="-55.88" x2="88.9" y2="-55.88" width="0.1524" layer="91"/>
-<label x="88.9" y="-55.88" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="86.36" y1="-53.34" x2="88.9" y2="-53.34" width="0.1524" layer="91"/>
-<label x="88.9" y="-53.34" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="4"/>
-<wire x1="86.36" y1="-50.8" x2="88.9" y2="-50.8" width="0.1524" layer="91"/>
-<label x="88.9" y="-50.8" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="5"/>
-<wire x1="86.36" y1="-48.26" x2="88.9" y2="-48.26" width="0.1524" layer="91"/>
-<label x="88.9" y="-48.26" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$16" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="6"/>
-<wire x1="86.36" y1="-45.72" x2="88.9" y2="-45.72" width="0.1524" layer="91"/>
-<label x="88.9" y="-45.72" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="7"/>
-<wire x1="86.36" y1="-43.18" x2="88.9" y2="-43.18" width="0.1524" layer="91"/>
-<label x="88.9" y="-43.18" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="8"/>
-<wire x1="86.36" y1="-40.64" x2="88.9" y2="-40.64" width="0.1524" layer="91"/>
-<label x="88.9" y="-40.64" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="9"/>
-<wire x1="86.36" y1="-38.1" x2="88.9" y2="-38.1" width="0.1524" layer="91"/>
-<label x="88.9" y="-38.1" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
