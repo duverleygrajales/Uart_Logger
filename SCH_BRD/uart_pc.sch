@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -3506,65 +3506,6 @@ Source: AVX .. aphvc.pdf</description>
 &lt;p&gt;THIS SOFTWARE IS PROVIDED ''AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE INSTITUTE OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,  BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 &lt;/p&gt;</description>
 <packages>
-<package name="SOLDERJUMPER_2WAY_OPEN_NOPASTE">
-<wire x1="2.032" y1="-1.016" x2="-2.032" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="2.032" y1="1.016" x2="2.286" y2="0.762" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-2.286" y1="0.762" x2="-2.032" y2="1.016" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-2.286" y1="-0.762" x2="-2.032" y2="-1.016" width="0.2032" layer="21" curve="90"/>
-<wire x1="2.032" y1="-1.016" x2="2.286" y2="-0.762" width="0.2032" layer="21" curve="90"/>
-<wire x1="2.286" y1="-0.762" x2="2.286" y2="0.762" width="0.2032" layer="21"/>
-<wire x1="-2.286" y1="-0.762" x2="-2.286" y2="0.762" width="0.2032" layer="21"/>
-<wire x1="-2.032" y1="1.016" x2="2.032" y2="1.016" width="0.2032" layer="21"/>
-<wire x1="1.651" y1="0" x2="2.159" y2="0" width="0.2032" layer="51"/>
-<wire x1="-1.651" y1="0" x2="-2.159" y2="0" width="0.2032" layer="51"/>
-<wire x1="-0.889" y1="-0.127" x2="-0.889" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
-<wire x1="0.889" y1="0.127" x2="0.889" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
-<smd name="1" x="-1.397" y="0" dx="1.1684" dy="1.6002" layer="1" stop="no" cream="no"/>
-<smd name="3" x="1.397" y="0" dx="1.1684" dy="1.6002" layer="1" stop="no" cream="no"/>
-<text x="-1.905" y="1.27" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
-<text x="1.0351" y="0" size="0.02" layer="27">&gt;VALUE</text>
-<smd name="2" x="0" y="0" dx="1.1684" dy="1.6002" layer="1" stop="no" cream="no"/>
-<text x="-3.302" y="-0.635" size="1.27" layer="51">1</text>
-<text x="2.54" y="-0.635" size="1.27" layer="51">3</text>
-<rectangle x1="-0.508" y1="-0.762" x2="0.508" y2="0.762" layer="51"/>
-<rectangle x1="-2.1" y1="-0.9" x2="2.1" y2="0.9" layer="29"/>
-</package>
-<package name="SOLDERJUMPER_2WAY_OPEN_0603">
-<wire x1="-2.323" y1="0.729" x2="2.323" y2="0.729" width="0.0508" layer="39"/>
-<wire x1="2.323" y1="0.729" x2="2.323" y2="-0.729" width="0.0508" layer="39"/>
-<wire x1="2.323" y1="-0.729" x2="-2.323" y2="-0.729" width="0.0508" layer="39"/>
-<wire x1="-2.323" y1="-0.729" x2="-2.323" y2="0.729" width="0.0508" layer="39"/>
-<wire x1="-2.45" y1="0.7" x2="2.45" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="2.45" y1="0.7" x2="2.45" y2="-0.7" width="0.2032" layer="21"/>
-<wire x1="2.45" y1="-0.7" x2="-2.45" y2="-0.7" width="0.2032" layer="21"/>
-<wire x1="-2.45" y1="-0.7" x2="-2.45" y2="0.7" width="0.2032" layer="21"/>
-<smd name="1" x="-1.7" y="0" dx="1.1" dy="1" layer="1"/>
-<smd name="2" x="0" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="2.755" y="0" size="0.8128" layer="25" font="vector" ratio="18">&gt;NAME</text>
-<text x="2.755" y="-0.635" size="0.4064" layer="27" font="vector" ratio="10">&gt;VALUE</text>
-<smd name="3" x="1.7" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-1.869" y="-0.293" size="0.6096" layer="51">1</text>
-<text x="-0.227" y="-0.293" size="0.6096" layer="51">2</text>
-<text x="1.527" y="-0.293" size="0.6096" layer="51">3</text>
-</package>
-<package name="SOLDERJUMPER_2WAY_OPEN_0805">
-<wire x1="-2.823" y1="0.883" x2="2.823" y2="0.883" width="0.0508" layer="39"/>
-<wire x1="2.823" y1="-0.883" x2="-2.823" y2="-0.883" width="0.0508" layer="39"/>
-<wire x1="-2.823" y1="-0.883" x2="-2.823" y2="0.883" width="0.0508" layer="39"/>
-<wire x1="2.823" y1="0.883" x2="2.823" y2="-0.883" width="0.0508" layer="39"/>
-<wire x1="2.75" y1="0.9" x2="2.75" y2="-0.9" width="0.2032" layer="21"/>
-<wire x1="2.75" y1="-0.9" x2="-2.75" y2="-0.9" width="0.2032" layer="21"/>
-<wire x1="-2.75" y1="-0.9" x2="-2.75" y2="0.9" width="0.2032" layer="21"/>
-<wire x1="-2.75" y1="0.9" x2="2.75" y2="0.9" width="0.2032" layer="21"/>
-<smd name="1" x="-1.9" y="0" dx="1.3" dy="1.5" layer="1"/>
-<smd name="2" x="0" y="0" dx="1.3" dy="1.5" layer="1"/>
-<text x="2.982" y="0" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
-<text x="2.982" y="-0.635" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
-<smd name="3" x="1.9" y="0" dx="1.3" dy="1.5" layer="1"/>
-<text x="-2.05" y="-0.2" size="0.6096" layer="51">1</text>
-<text x="-0.15" y="-0.2" size="0.6096" layer="51">2</text>
-<text x="1.75" y="-0.2" size="0.6096" layer="51">3</text>
-</package>
 <package name="JSTPH2">
 <description>2-Pin JST PH Series Right-Angle Connector (+/- for batteries)</description>
 <wire x1="-4" y1="3" x2="4" y2="3" width="0.2032" layer="51"/>
@@ -3903,19 +3844,6 @@ Source: AVX .. aphvc.pdf</description>
 </package>
 </packages>
 <symbols>
-<symbol name="SOLDERJUMPER_2WAY">
-<wire x1="0.635" y1="0.635" x2="0.635" y2="-0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
-<wire x1="-0.635" y1="-0.635" x2="-0.635" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
-<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
-<text x="-5.08" y="-3.81" size="1.778" layer="95">&gt;NAME</text>
-<text x="-5.08" y="-6.35" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="3" x="2.54" y="0" visible="pad" length="point" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-2.54" y="0" visible="pad" length="point" direction="pas" swaplevel="1"/>
-<pin name="2" x="0" y="2.54" visible="pad" length="point" direction="pas" swaplevel="1" rot="R270"/>
-<wire x1="0" y1="2.54" x2="0" y2="0.381" width="0.1524" layer="94"/>
-<rectangle x1="-0.254" y1="-1.27" x2="0.254" y2="1.27" layer="94"/>
-</symbol>
 <symbol name="BATTERY">
 <wire x1="-2.54" y1="0" x2="-0.635" y2="0" width="0.1524" layer="94"/>
 <wire x1="0.889" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
@@ -3946,44 +3874,6 @@ Source: AVX .. aphvc.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SOLDERJUMPER_2WAY" prefix="SJ" uservalue="yes">
-<description>&lt;b&gt;2-Way Solder Jumper&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="SOLDERJUMPER_2WAY" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOLDERJUMPER_2WAY_OPEN_NOPASTE">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0603" package="SOLDERJUMPER_2WAY_OPEN_0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0805" package="SOLDERJUMPER_2WAY_OPEN_0805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="BATTERY" prefix="B" uservalue="yes">
 <description>&lt;p&gt;
 &lt;ul&gt;
@@ -10524,7 +10414,6 @@ Conrad Elektronik Best. Nr. 729981 - 49</description>
 <part name="B1" library="microbuilder" deviceset="BATTERY" device="CR1220_SMT"/>
 <part name="GND51" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C51" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" value="4.7uF"/>
-<part name="SJ27" library="microbuilder" deviceset="SOLDERJUMPER_2WAY" device=""/>
 <part name="D39" library="Kingbright" deviceset="APTF1616SEEZGQBDC" device=""/>
 <part name="U$4" library="IRLML2502" deviceset="IRLML2502" device=""/>
 <part name="U$5" library="IRLML2502" deviceset="IRLML2502" device=""/>
@@ -10553,7 +10442,7 @@ Conrad Elektronik Best. Nr. 729981 - 49</description>
 <part name="R26" library="rc-master-smd" deviceset="R_" device="0603" value="4.7k"/>
 <part name="J5" library="Molex_105017-0001" deviceset="105017-0001" device=""/>
 <part name="U1" library="FT232RQ" deviceset="FT232RQ" device=""/>
-<part name="S3" library="SparkFun-Electromechanical" deviceset="SWITCH-SPDT" device="SMD"/>
+<part name="S3.3V" library="SparkFun-Electromechanical" deviceset="SWITCH-SPDT" device="SMD"/>
 <part name="SJ6" library="microbuilder" deviceset="SOLDERJUMPER" device=""/>
 <part name="LED2" library="adafruit" deviceset="LED" device="CHIP-LED0603"/>
 <part name="GND32" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -10574,7 +10463,7 @@ Conrad Elektronik Best. Nr. 729981 - 49</description>
 <part name="GND58" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="X20" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK550/2" device="" package3d_urn="urn:adsk.eagle:package:9907/1"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="S4" library="SparkFun-Electromechanical" deviceset="SWITCH-SPDT" device="SMD"/>
+<part name="S5V" library="SparkFun-Electromechanical" deviceset="SWITCH-SPDT" device="SMD"/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
@@ -10603,6 +10492,7 @@ Conrad Elektronik Best. Nr. 729981 - 49</description>
 <part name="R4" library="rc-master-smd" deviceset="R_" device="0603" value="100"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="CONN_06" device="SILK_FEMALE_PTH"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_09" device=""/>
+<part name="SVBAT" library="SparkFun-Electromechanical" deviceset="SWITCH-SPDT" device="SMD"/>
 </parts>
 <sheets>
 <sheet>
@@ -10797,12 +10687,11 @@ Conrad Elektronik Best. Nr. 729981 - 49</description>
 <instance part="C46" gate="G$1" x="-96.52" y="-58.42" rot="R270"/>
 <instance part="R44" gate="G$1" x="-99.06" y="-30.48" rot="R270"/>
 <instance part="GND45" gate="1" x="-99.06" y="-40.64"/>
-<instance part="C47" gate="G$1" x="-53.34" y="-27.94" rot="R270"/>
-<instance part="GND46" gate="1" x="-53.34" y="-35.56"/>
+<instance part="C47" gate="G$1" x="-43.18" y="-25.4" rot="R270"/>
+<instance part="GND46" gate="1" x="-43.18" y="-33.02"/>
 <instance part="B1" gate="G$1" x="-78.74" y="-22.86" rot="R90"/>
 <instance part="GND51" gate="1" x="-78.74" y="-30.48"/>
 <instance part="C51" gate="G$1" x="-109.22" y="-27.94"/>
-<instance part="SJ27" gate="G$1" x="-58.42" y="-22.86" rot="MR90"/>
 <instance part="D39" gate="G$1" x="73.66" y="38.1"/>
 <instance part="U$4" gate="G$1" x="55.88" y="5.08"/>
 <instance part="U$5" gate="G$1" x="71.12" y="5.08"/>
@@ -10821,6 +10710,7 @@ Conrad Elektronik Best. Nr. 729981 - 49</description>
 <instance part="SUPPLY11" gate="G$1" x="104.14" y="43.18"/>
 <instance part="J2" gate="G$1" x="53.34" y="-35.56"/>
 <instance part="J1" gate="G$1" x="76.2" y="-48.26"/>
+<instance part="SVBAT" gate="1" x="-48.26" y="-20.32" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -10966,7 +10856,7 @@ Conrad Elektronik Best. Nr. 729981 - 49</description>
 <segment>
 <pinref part="C47" gate="G$1" pin="2"/>
 <pinref part="GND46" gate="1" pin="GND"/>
-<wire x1="-53.34" y1="-30.48" x2="-53.34" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="-27.94" x2="-43.18" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND51" gate="1" pin="GND"/>
@@ -11158,12 +11048,6 @@ Conrad Elektronik Best. Nr. 729981 - 49</description>
 <wire x1="-109.22" y1="-53.34" x2="-109.22" y2="-50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="-58.42" y1="-17.78" x2="-60.96" y2="-17.78" width="0.1524" layer="91"/>
-<label x="-60.96" y="-17.78" size="0.8128" layer="95" rot="R180" xref="yes"/>
-<pinref part="SJ27" gate="G$1" pin="3"/>
-<wire x1="-58.42" y1="-17.78" x2="-58.42" y2="-20.32" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <label x="60.96" y="-40.64" size="0.8128" layer="95" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="-40.64" x2="58.42" y2="-40.64" width="0.1524" layer="91"/>
@@ -11178,6 +11062,11 @@ Conrad Elektronik Best. Nr. 729981 - 49</description>
 <pinref part="SUPPLY11" gate="G$1" pin="3.3V"/>
 <wire x1="104.14" y1="40.64" x2="104.14" y2="43.18" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="SVBAT" gate="1" pin="S"/>
+<wire x1="-53.34" y1="-17.78" x2="-55.88" y2="-17.78" width="0.1524" layer="91"/>
+<label x="-55.88" y="-17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="VBAT" class="0">
 <segment>
@@ -11186,27 +11075,26 @@ Conrad Elektronik Best. Nr. 729981 - 49</description>
 <label x="-20.32" y="48.26" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
+<pinref part="SVBAT" gate="1" pin="P"/>
+<wire x1="-45.72" y1="-20.32" x2="-43.18" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="C47" gate="G$1" pin="1"/>
-<wire x1="-53.34" y1="-22.86" x2="-50.8" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="-22.86" x2="-53.34" y2="-25.4" width="0.1524" layer="91"/>
-<label x="-50.8" y="-22.86" size="0.8128" layer="95" xref="yes"/>
-<pinref part="SJ27" gate="G$1" pin="2"/>
-<wire x1="-55.88" y1="-22.86" x2="-53.34" y2="-22.86" width="0.1524" layer="91"/>
-<junction x="-53.34" y="-22.86"/>
+<wire x1="-43.18" y1="-20.32" x2="-40.64" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="-20.32" x2="-43.18" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="-43.18" y="-20.32"/>
+<label x="-40.64" y="-20.32" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="BAT" class="0">
-<segment>
-<wire x1="-58.42" y1="-27.94" x2="-60.96" y2="-27.94" width="0.1524" layer="91"/>
-<label x="-60.96" y="-27.94" size="0.8128" layer="95" rot="R180" xref="yes"/>
-<pinref part="SJ27" gate="G$1" pin="1"/>
-<wire x1="-58.42" y1="-25.4" x2="-58.42" y2="-27.94" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="+"/>
 <wire x1="-78.74" y1="-20.32" x2="-78.74" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="-78.74" y1="-17.78" x2="-76.2" y2="-17.78" width="0.1524" layer="91"/>
 <label x="-76.2" y="-17.78" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SVBAT" gate="1" pin="O"/>
+<wire x1="-53.34" y1="-22.86" x2="-55.88" y2="-22.86" width="0.1524" layer="91"/>
+<label x="-55.88" y="-22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="NRST" class="0">
@@ -11292,25 +11180,6 @@ Conrad Elektronik Best. Nr. 729981 - 49</description>
 <pinref part="D39" gate="G$1" pin="4"/>
 <pinref part="R97" gate="G$1" pin="1"/>
 <wire x1="66.04" y1="30.48" x2="66.04" y2="22.86" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$110" class="0">
-<segment>
-<pinref part="R98" gate="G$1" pin="1"/>
-<wire x1="73.66" y1="25.4" x2="73.66" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="D39" gate="G$1" pin="2"/>
-<wire x1="81.28" y1="30.48" x2="78.74" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="30.48" x2="78.74" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="25.4" x2="73.66" y2="25.4" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$113" class="0">
-<segment>
-<pinref part="R99" gate="G$1" pin="1"/>
-<pinref part="D39" gate="G$1" pin="3"/>
-<wire x1="73.66" y1="30.48" x2="73.66" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="27.94" x2="81.28" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="27.94" x2="81.28" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$117" class="0">
@@ -11514,6 +11383,20 @@ Conrad Elektronik Best. Nr. 729981 - 49</description>
 <label x="22.86" y="-17.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="R98" gate="G$1" pin="1"/>
+<pinref part="D39" gate="G$1" pin="3"/>
+<wire x1="73.66" y1="22.86" x2="73.66" y2="30.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="R99" gate="G$1" pin="1"/>
+<pinref part="D39" gate="G$1" pin="2"/>
+<wire x1="81.28" y1="22.86" x2="81.28" y2="30.48" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -11683,9 +11566,9 @@ Conrad Elektronik Best. Nr. 729981 - 49</description>
 <instances>
 <instance part="J5" gate="G$1" x="-45.72" y="45.72"/>
 <instance part="U1" gate="G$1" x="12.7" y="-2.54"/>
-<instance part="S3" gate="1" x="-55.88" y="-10.16"/>
+<instance part="S3.3V" gate="1" x="-55.88" y="-10.16"/>
 <instance part="SJ6" gate="1" x="-60.96" y="38.1" rot="R270"/>
-<instance part="S4" gate="1" x="-55.88" y="-20.32"/>
+<instance part="S5V" gate="1" x="-55.88" y="-20.32"/>
 <instance part="SUPPLY6" gate="G$1" x="-60.96" y="-17.78"/>
 <instance part="SUPPLY7" gate="G$1" x="-60.96" y="-7.62"/>
 <instance part="GND2" gate="1" x="-30.48" y="38.1"/>
@@ -11790,7 +11673,7 @@ Conrad Elektronik Best. Nr. 729981 - 49</description>
 </net>
 <net name="3.3V" class="0">
 <segment>
-<pinref part="S3" gate="1" pin="P"/>
+<pinref part="S3.3V" gate="1" pin="P"/>
 <wire x1="-58.42" y1="-10.16" x2="-60.96" y2="-10.16" width="0.1524" layer="91"/>
 <pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
 <wire x1="-60.96" y1="-10.16" x2="-60.96" y2="-7.62" width="0.1524" layer="91"/>
@@ -11813,11 +11696,6 @@ Conrad Elektronik Best. Nr. 729981 - 49</description>
 </net>
 <net name="3V3OUT" class="0">
 <segment>
-<pinref part="S3" gate="1" pin="O"/>
-<wire x1="-50.8" y1="-7.62" x2="-48.26" y2="-7.62" width="0.1524" layer="91"/>
-<label x="-48.26" y="-7.62" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="C6" gate="G$1" pin="2"/>
 <pinref part="U1" gate="G$1" pin="3V3OUT"/>
 <wire x1="-15.24" y1="20.32" x2="-10.16" y2="20.32" width="0.1524" layer="91"/>
@@ -11825,10 +11703,15 @@ Conrad Elektronik Best. Nr. 729981 - 49</description>
 <junction x="-15.24" y="20.32"/>
 <label x="-17.78" y="20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="S3.3V" gate="1" pin="S"/>
+<wire x1="-50.8" y1="-12.7" x2="-48.26" y2="-12.7" width="0.1524" layer="91"/>
+<label x="-48.26" y="-12.7" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="5V" class="0">
 <segment>
-<pinref part="S4" gate="1" pin="P"/>
+<pinref part="S5V" gate="1" pin="P"/>
 <wire x1="-58.42" y1="-20.32" x2="-60.96" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="G$1" pin="5V"/>
 <wire x1="-60.96" y1="-20.32" x2="-60.96" y2="-17.78" width="0.1524" layer="91"/>
@@ -11841,24 +11724,19 @@ Conrad Elektronik Best. Nr. 729981 - 49</description>
 </net>
 <net name="VIN3V3" class="0">
 <segment>
-<pinref part="S3" gate="1" pin="S"/>
-<wire x1="-50.8" y1="-12.7" x2="-48.26" y2="-12.7" width="0.1524" layer="91"/>
-<label x="-48.26" y="-12.7" size="1.27" layer="95" xref="yes"/>
+<pinref part="S3.3V" gate="1" pin="O"/>
+<wire x1="-50.8" y1="-7.62" x2="-48.26" y2="-7.62" width="0.1524" layer="91"/>
+<label x="-48.26" y="-7.62" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="VIN5V" class="0">
 <segment>
-<pinref part="S4" gate="1" pin="S"/>
-<wire x1="-50.8" y1="-22.86" x2="-48.26" y2="-22.86" width="0.1524" layer="91"/>
-<label x="-48.26" y="-22.86" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="5VOUT" class="0">
-<segment>
-<pinref part="S4" gate="1" pin="O"/>
+<pinref part="S5V" gate="1" pin="O"/>
 <wire x1="-50.8" y1="-17.78" x2="-48.26" y2="-17.78" width="0.1524" layer="91"/>
 <label x="-48.26" y="-17.78" size="1.27" layer="95" xref="yes"/>
 </segment>
+</net>
+<net name="5VOUT" class="0">
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="-7.62" y1="45.72" x2="-7.62" y2="48.26" width="0.1524" layer="91"/>
@@ -11871,6 +11749,11 @@ Conrad Elektronik Best. Nr. 729981 - 49</description>
 <wire x1="2.54" y1="48.26" x2="5.08" y2="48.26" width="0.1524" layer="91"/>
 <junction x="2.54" y="48.26"/>
 <label x="5.08" y="48.26" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="S5V" gate="1" pin="S"/>
+<wire x1="-50.8" y1="-22.86" x2="-48.26" y2="-22.86" width="0.1524" layer="91"/>
+<label x="-48.26" y="-22.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$3" class="0">
