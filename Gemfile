@@ -1,1 +1,3 @@
-gem "slate"
+source 'https://rubygems.org'
+
+gemspec
