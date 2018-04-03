@@ -1,1 +1,0 @@
-In order to crete docs folder (Git not dupport empty files)
