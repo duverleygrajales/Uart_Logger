@@ -1,0 +1,22 @@
+GEM
+  specs:
+    faraday (0.14.0)
+      multipart-post (>= 1.2, < 3)
+    json (1.8.6)
+    multipart-post (2.0.0)
+    polyglot (0.3.5)
+    slate (1.1.2)
+      faraday (~> 0.8)
+      json (~> 1.7)
+      treetop (~> 1.4)
+    treetop (1.6.10)
+      polyglot (~> 0.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  slate
+
+BUNDLED WITH
+   1.16.1
